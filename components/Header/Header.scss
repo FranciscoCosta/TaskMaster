@@ -1,0 +1,35 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+    background-color: var(--background-nav);
+
+    .Header__logo-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+
+        .Header__logo-img{
+            position: relative;
+            width: 100px;
+            height: 100px;
+        }
+
+        h2{
+            font-size: 3rem;
+            font-weight: 700;
+            margin-left: 1rem;
+            color: var(--red-color);
+            
+            .color-blue{
+                color: var(--blue-color);
+            }
+
+            .color-orange{
+                color: var(--orange-color);
+            }
+        }
+    }
+}
