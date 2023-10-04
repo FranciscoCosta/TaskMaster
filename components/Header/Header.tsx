@@ -1,5 +1,9 @@
+'use client'
+
 import React from "react";
 import Image from "next/image";
+
+
 
 
 import { FaMagnifyingGlass } from 'react-icons/fa6';
@@ -24,16 +28,16 @@ function Header() {
 
         <form className="Header__search">
           <input type="text" className="Header__search-input" placeholder="Procurar" />
-          <button className="Header__search-btn">
+          <button className="Header__search-btn" type="submit">
             <FaMagnifyingGlass />
           </button>
         </form>
 
         <div className="Header__user-container">
-          <div className="Header__user-img">
-
-          </div>
-          <div className="Header__user-name"></div>
+            <h3 className="Header__user-name">Francisco Costa</h3>
+            <div className="Header__user-img">
+              <Image src="/FC.png" alt="user" fill />
+            </div>
         </div>
       </div>
     </div>
