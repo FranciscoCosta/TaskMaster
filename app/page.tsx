@@ -1,11 +1,10 @@
-import { Header } from '../components'
+import { AiResume, Header } from "../components";
 
 export default function Home() {
   return (
-    <main>
-      {
-        <Header />
-      }
+    <main className="Home">
+      <Header />
+      <AiResume />
     </main>
-  )
+  );
 }
