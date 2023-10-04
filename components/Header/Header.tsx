@@ -17,6 +17,19 @@ function Header() {
         </div>
         <h2 className="Header__logo-title"><span className="color-blue">Task</span><span className="color-orange">M</span>aster</h2>
       </div>
+      <div className="Header__user">
+
+        <div className="Header__search">
+
+        </div>
+
+        <div className="Header__user-container">
+          <div className="Header__user-img">
+
+          </div>
+          <div className="Header__user-name"></div>
+        </div>
+      </div>
     </div>
   );
 }
