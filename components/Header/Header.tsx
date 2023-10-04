@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
+
+import { FaMagnifyingGlass } from 'react-icons/fa6';
+
 import "./Header.scss";
 function Header() {
   return (
@@ -19,9 +22,12 @@ function Header() {
       </div>
       <div className="Header__user">
 
-        <div className="Header__search">
-
-        </div>
+        <form className="Header__search">
+          <input type="text" className="Header__search-input" placeholder="Procurar" />
+          <button className="Header__search-btn">
+            <FaMagnifyingGlass />
+          </button>
+        </form>
 
         <div className="Header__user-container">
           <div className="Header__user-img">
